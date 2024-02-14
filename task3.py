@@ -15,8 +15,7 @@ for x in products:
                 minn = float(x[4])
                 dminn[x[0]]= minn
     else:
-        dminn[x[0]]=float(x[4])
-print(dminn)                
+        dminn[x[0]]=float(x[4])             
 while True:
     st = input('Введите название категории:')
     if st=='молоко':
